@@ -24,7 +24,7 @@ cross-modal alignment — the actual contribution that justifies "multimodal."
 
 ```bash
 # 1. Setup
-conda activate Tunde   # or your conda env
+conda activate Jubril  # or your conda env
 pip install -r requirements.txt
 
 # 2. Quick end-to-end test (< 5 min on GPU)
