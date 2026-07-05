@@ -1,0 +1,31 @@
+# ── ETTh1 configuration ──
+dataset: ETTh1
+seq_len: 96
+pred_len: 96
+batch_size: 32
+num_workers: 4
+target_mode: all
+
+# Model
+d_model: 128
+wavelet: db4
+dwt_levels: 3
+dwt_trainable: 1
+top_k: 0           # soft routing
+use_graph: 1
+d_state: 64
+dropout: 0.1
+
+# Training
+epochs: 50
+lr: 0.001
+wd: 0.0001
+lambda_aux: 0.01
+lambda_graph: 0.001
+max_grad_norm: 1.0
+use_amp: 1
+patience: 10
+log_every: 50
+seed: 42
+
+save_dir: ./checkpoints

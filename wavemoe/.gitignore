@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+data/
+checkpoints/
+results/
+figures/
+*.npy
+*.pt
+tb/
+.venv/
